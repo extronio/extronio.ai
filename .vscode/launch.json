@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Serve Frontend (Python)",
+            "type": "python",
+            "request": "launch",
+            "module": "http.server",
+            "args": [
+                "8001"
+            ],
+            "cwd": "${workspaceFolder:extronio-ai-frontend}",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
